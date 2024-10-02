@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+
+                <h1 class = "header_text anim">Scroll up🤗</h1>  
+                          <div class="all">
+                <h1 class = "header_text3">Roses are red, violets are blue,<br>
+                    From the moment I met you,<br>
+                    My heart beats for you alone,<br>
+                    Forever with you, I want to be home.<br></h1>
+                    <h1 class = "header_text3">
+                    Your smile lights up the darkest night,<br>
+                    Your laughter makes my heart take flight.<br>
+                    Your eyes shine brighter than the stars,<br>
+                    With you, my heart goes far.</h1>
+                    <h1 class = "header_text3">
+                    Would you be my guiding light?<br>
+                    My partner through life's delight?<br>
+                    My girlfriend, my love, my heart?<br>
+                    Together, never to be apart?</h1>
+                    <h1 class = "header_text3">
+                    If you say yes, I promise to be,<br>
+                    Loyal, loving, and honest with thee.<br></h1>
+                    <h1 class = "header_text3">
+                    So here I ask, with heart so true,<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                    Will you be my girlfriend, my love anew?<br>
+                </h1>
+                    <h1 class = "header_text3">
+                    Yours always.</h1>
+            </div>
+                          <div class="all">
+                <h1 class = "header_text2 anim">Roses are red, violets are blue,<br>
+                    From the moment I met you,<br>
+                    My heart beats for you alone,<br>
+                    Forever with you, I want to be home.<br></h1>
+                    <h1 class = "header_text2 anim">
+                    Your smile lights up the darkest night,<br>
+                    Your laughter makes my heart take flight.<br>
+                    Your eyes shine brighter than the stars,<br>
+                    With you, my heart goes far.</h1>
+                    <h1 class = "header_text2 anim">
+                    Would you be my guiding light?<br>
+                    My partner through life's delight?<br>
+                    My girlfriend, my love, my heart?<br>
+                    Together, never to be apart?</h1>
+                    <h1 class = "header_text2 anim">
+                    If you say yes, I promise to be,<br>
+                    Loyal, loving, and honest with thee.<br></h1>
+                    <h1 class = "header_text2 anim">
+                    So here I ask, with heart so true,<br>
+                    Will you be my girlfriend?<br></h1>
+            </div>
+            <div class="gif_container anim">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+               </div> <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            
+        </div>
+    </body> 
+</html>
